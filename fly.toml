@@ -8,6 +8,3 @@ primary_region = "ams"
 
 [processes]
   app = "python main.py"
-
-# Telegram botga HTTP port kerak emas.
-# Shuning uchun [http_service] bo'limi bo'lmasa ham bo'ladi.

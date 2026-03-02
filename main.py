@@ -12,6 +12,12 @@ from telegram.ext import (
     filters,
     ContextTypes,
 )
+import os
+
+BOT_TOKEN = os.getenv("8586451417:AAFi7PLYi78ltUZWea7v5cvWNYzFH_o7zQA")
+
+if not BOT_TOKEN:
+    raise RuntimeError("BOT_TOKEN topilmadi. flyctl secrets set qiling.")
 
 # Logging sozlamalari
 logging.basicConfig(
